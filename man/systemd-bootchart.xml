@@ -255,6 +255,13 @@
   </refsect1>
 
   <refsect1>
+    <title>Notes</title>
+
+    <para><command>systemd-bootchart</command> requires
+    CONFIG_SCHEDSTATS to be enabled when building Linux kernels.</para>
+  </refsect1>
+
+  <refsect1>
     <title>History</title>
 
     <para>This version of bootchart was implemented from scratch, but
